@@ -40,21 +40,47 @@ console.log("listas de frutas"+ frutas)
 
  // Accede al segundo elemento de la lista de comida y cambia su valor por otro diferente.
     
- var frutas3=[" kiwi","platano","manzana","pera"];
- frutas3[1];
- 
+ frutas2[1]= "fresa"
 
-
+ console.log(frutas2);
 
 
 
 
     // Recorre la lista de comida utilizando un bucle while y muestra cada elemento en la consola.
     
+ 
+    var j = 0;
+    while(j < frutas2.length){
+
+        console.log(frutas2[j]);
+        j=j+1;
+    
+    }
+    
+
+
+    
     // Crea una función que reciba una lista como parámetro y devuelva el último elemento de la lista.
     
+    frutas2 = [" kiwi","platano","manzana","pera"]
+    function DevuelveUltimo(frutas2){
+        
+    }
+
+
+
+
     // Crea una función que reciba una lista y un elemento como parámetros y agregue el elemento a la lista si no se encuentra en ella.
     
+    frutas2 = [" kiwi","platano","manzana","pera"]
+
+    function AñadeElemento(frutas2){
+
+    }
+
+
+
     // Crea una función que reciba una lista como parámetro y devuelva una nueva lista con los elementos de la lista original en orden inverso.
     
     // Crea una función que reciba una lista de números como parámetro y devuelva la suma de todos los números de la lista.
